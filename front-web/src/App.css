@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+button {
+  font-size: 22px;
+  background-color:#61dafb ;
+  width: auto;
+  min-height: 30px;
+  color: dimgray;
+  padding: 20px;
+  border: 1px solid #61dafb; 
+  border-radius: 15px;
+  margin: 10px 20px;
+  cursor: pointer;
+  transition: transform 1s; 
+}
+
+
+button:hover {
+  background-color: aqua;
+  color: black;
+  border: 1px solid black; 
+  transform:  scale(1.1);
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 3s alternate-reverse;

@@ -112,6 +112,11 @@ function App() {
 
   return (
     <div className="App">
+      <h2>Testando requisições ao Firebase</h2>
+      <button onClick={requestPermission}>Requisitar Permissão</button>
+      <button onClick={getToken}>Inscrever Token</button>
+      <button onClick={deleteToken}>Desinscrever Token</button>
+      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>

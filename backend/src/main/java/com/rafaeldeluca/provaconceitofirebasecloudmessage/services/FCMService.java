@@ -20,9 +20,9 @@ import com.rafaeldeluca.provaconceitofirebasecloudmessage.dto.PushNotificationRe
 import jakarta.annotation.PostConstruct;
 
 @Service
-public class FCMServices {
+public class FCMService {
 
-	private Logger logger = LoggerFactory.getLogger(FCMServices.class);
+	private Logger logger = LoggerFactory.getLogger(FCMService.class);
 
 	@PostConstruct
 	public void initialize() throws IOException {

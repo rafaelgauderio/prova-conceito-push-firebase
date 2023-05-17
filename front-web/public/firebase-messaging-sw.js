@@ -19,7 +19,7 @@ firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
 
 messaging.onBackgroundMessage(function (payload) {
-     console.log('sw background message event: ', payload);
+     console.log('push notification background message event: ', payload);
 });
 
 

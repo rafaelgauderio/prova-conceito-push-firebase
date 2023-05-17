@@ -39,7 +39,7 @@ function App() {
     firebase.initializeApp(firebaseConfig);
 
     firebase.messaging().onMessage(function(payload) {
-      console.log("onMessage event ", payload);
+      console.log("onMessage event. Evento quando a aplicaçãoe está foco.", payload);
     });
 
     navigator.serviceWorker.addEventListener("message", (message) => {
